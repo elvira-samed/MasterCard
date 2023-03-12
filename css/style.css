@@ -1,0 +1,33 @@
+.ms{
+    display: block;
+    /* background-color: aquamarine; */
+    margin: 10% 35%;
+    position: relative;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    opacity: 90%;
+}
+
+.left{
+    background-color: #EB001B;
+}
+
+.right{
+    background-color: #F79E1B;
+    position: absolute;
+    top: 0;
+    left: 150px;
+}
+
+.ms-text{
+    position: absolute;
+    left: 15%;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1.5px;
+}
